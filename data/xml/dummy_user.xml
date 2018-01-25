@@ -1,0 +1,24 @@
+<user>
+    <results>
+        <name>
+            <title>mr</title>
+            <first>abdoullah</first>
+            <last>pander</last>
+        </name>
+        <email>abdoullah.pander@example.com</email>
+        <picture>
+            <large>https://randomuser.me/api/portraits/men/87.jpg</large>
+            <medium>https://randomuser.me/api/portraits/med/men/87.jpg</medium>
+            <thumbnail>
+                https://randomuser.me/api/portraits/thumb/men/87.jpg
+            </thumbnail>
+        </picture>
+        <nat>NL</nat>
+    </results>
+    <info>
+        <seed>120f6372f356c330</seed>
+        <results>1</results>
+        <page>1</page>
+        <version>1.1</version>
+    </info>
+</user>

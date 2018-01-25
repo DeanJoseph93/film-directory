@@ -1,0 +1,1 @@
+Ajax is not a language per se. It is a NEW standard that uses existing languages. It stands for Asynchronous JavaScript and Xml.

@@ -1,0 +1,30 @@
+add this markup before #UsersBtn:
+=================================
+
+<fieldset class="text-center">
+	<div class="checkbox">
+		<label>
+			<input class="fCtrl qCtrl" type="checkbox" checked name="email" value="email"> email
+		</label>
+
+		<label>
+			<input class="fCtrl qCtrl" type="checkbox" checked name="picture" value="picture"> picture
+		</label>
+
+		<label>
+			<input class="fCtrl qCtrl" type="checkbox" checked name="nat" value="nat"> nat
+		</label>
+		<label>
+			<input type="number" class="form-control fCtrl resCtrl" placeholder="how many users" name="results" value="8">
+		</label>
+	</div>
+</fieldset>
+
+
+
+
+
+
+
+
+

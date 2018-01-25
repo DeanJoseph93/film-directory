@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOGUE>
+	<BOOK>
+		<TITLE>PHP/MySQL</TITLE>
+	</BOOK>
+	<BOOK>
+		<TITLE>Ajax</TITLE>
+	</BOOK>
+	<BOOK>
+		<TITLE>javascript</TITLE>
+	</BOOK>
+	<BOOK>
+		<TITLE>jquery ninja</TITLE>
+	</BOOK>
+</CATALOGUE>

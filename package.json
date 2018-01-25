@@ -1,0 +1,22 @@
+{
+  "name": "ajax_projects",
+  "version": "1.0.0",
+  "description": "ajax intro",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JS",
+    "AJAX",
+    "Training",
+    "Dragon"
+  ],
+  "author": "Training Dragon, Fanaimi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "jquery": "~3.2.1",
+    "jquery-autocomplete": "~1.2.1"
+  }
+}

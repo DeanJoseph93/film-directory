@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<collection> <!-- ROOT TAG -->
+
+	<artist>
+		<name>Paganini</name>
+		<title>Caprice no 24</title>
+		<thumb>paganini.jpg</thumb>
+	</artist>
+
+	<artist>
+		<name>Vivaldi</name>
+		<title>Inverno</title>
+		<thumb>vivaldi.jpg</thumb>
+	</artist>
+
+	<artist>
+		<name>Rossini</name>
+		<title>Ouverture</title>
+		<thumb>rossini.jpg</thumb>
+	</artist>
+
+	<artist>
+		<name>Bach</name>
+		<title>Concerto per viola</title>
+		<thumb>bach.jpg</thumb>
+	</artist>
+
+	<artist>
+		<name>Handel</name>
+		<title>Sarabande</title>
+		<thumb>handel.jpg</thumb>
+	</artist>
+
+</collection>

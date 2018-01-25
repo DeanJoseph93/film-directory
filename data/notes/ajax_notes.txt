@@ -1,0 +1,100 @@
+GETTING RANDOM USERS (jquery and XML)
+======================================
+https://randomuser.me/
+
+documentation:
+https://randomuser.me/documentation
+
+https://randomuser.me/api/?inc=name,email,picture,nat&format=xml&results=8
+
+
+<div class="user col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <div class="userInner">
+        <p>
+            <img src="https://randomuser.me/api/portraits/men/87.jpg" alt="" class="pic img-circle">
+        </p>
+        <p>
+            <span class="title">Mr</span>
+            <span class="first">John</span>
+            <span class="last">Doe</span>
+        </p>
+        <p><span class="email">abdoullah.pander@example.com</span></p>
+        <p>Nationality: <strong class="nat">NL</strong></p>
+    </div><!--/userInner-->
+</div><!--/user-->
+
+
+userSkeleton =
+        "<div class='user col-xs-12 col-sm-6 col-md-4 col-lg-3'>\
+            <div class='userInner'>\
+                <p>\
+                    <img src='pic.jpg' alt='' class='pic img-circle'>\
+                </p>\
+                <p>\
+                    <span class='title'>Mr</span>\
+                    <span class='first'>John</span>\
+                    <span class='last'>Doe</span>\
+                </p>\
+                <p><span class='email'>email</span></p>\
+                <p>Nationality: <strong class='nat'>NL</strong></p>\
+            </div><!--/userInner-->\
+        </div><!--/user-->"
+
+
+
+
+
+jQuery PROMISES :D
+======================================
+
+var promise = $.ajax(params);
+
+promise
+    .done(function(data, status, promise){})
+    .fail(function(promise, status, error))
+    .always(function(data/promise, status, promise/error))
+    .then(doneCallback, failCallback)
+
+
+
+
+
+
+APIXU JSON and XML Weather API
+and Geo Developer API (jquery and json)
+=======================================
+
+
+SIGN UP USING GITHUB AND GET A NEW API KEY AT:
+https://www.apixu.com/signup.aspx
+
+
+http://api.apixu.com/v1/forecast.json?key=fc223133825e488096b114632172811q=oxford&days=3
+
+
+<tr>
+    <td class="localtime">2017-05-28 17:47</td><!-- location > localtime-->
+    <td class="name">Oxford</td><!-- location.name-->
+    <td class="region">Staffordshire</td><!-- location.region-->
+    <td class="country">United Kingdom</td><!-- location.country-->
+    <td class="latlon">53.08</td><!-- location.lat / location.lon-->
+    <td class="text">Partly cloudy</td><!-- current.condition.text -->
+    <td class="temp_c">16</td><!-- current.temp_c-->
+    <td class="wind_kph"></td><!-- current.wind_kph-->
+    <td class="icon"><img width="40" src="http://cdn.apixu.com/weather/64x64/day/356.png" alt=""></td><!-- current.condition.icon-->
+</tr>
+
+
+wResSkeleton = "\
+<tr>\
+    <td class='localtime'>2017-05-28 17:47</td><!-- location > localtime-->\
+    <td class='name'>Oxford</td><!-- location.name-->\
+    <td class='region'>Staffordshire</td><!-- location.region-->\
+    <td class='country'>United Kingdom</td><!-- location.country-->\
+    <td class='latlon'>53.08</td><!-- location.lat / location.lon-->\
+    <td class='text'>Partly cloudy</td><!-- current.condition.text -->\
+    <td class='temp_c'>16</td><!-- current.temp_c-->\
+    <td class='wind_kph'></td><!-- current.wind_kph-->\
+    <td class='icon'><img width='40' src='http://cdn.apixu.com/weather/64x64/day/356.png' alt=''></td><!-- current.condition.icon-->\
+</tr>
+";
